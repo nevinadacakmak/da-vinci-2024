@@ -1,8 +1,6 @@
-# Project Name
+# Bulk Purchasing Collective
 
-A brief description of your project, explaining its purpose, target users, and the primary features. For instance:
-
-> **Project Name** is a B2B platform designed to [describe purpose]. It enables small businesses to [describe primary functionality]. Built with a focus on [key value: e.g., ease of use, security, scalability], this MVP addresses [describe problem] by providing [describe solution].
+A platform where small businesses join forces to bulk purchase essential supplies, such as office supplies, packaging materials, or wholesale goods. By leveraging group buying, the platform helps businesses reduce individual costs through collective purchasing power.
 
 ---
 
@@ -22,20 +20,21 @@ A brief description of your project, explaining its purpose, target users, and t
 
 ## Project Description
 
-**Project Name** is a B2B platform that [describe what it does in detail]. It allows users to [specific features], aiming to help small businesses [describe benefits].
+**Bulk Purchasing Collective** is a B2B platform that allows small businesses to lower operational costs by joining interest groups for bulk purchasing of essential supplies. The MVP focuses on creating a seamless interface for discovering bulk purchase options, forming interest groups, and tracking potential savings.
 
 ## Features
 
-- **Feature 1**: Description of feature 1.
-- **Feature 2**: Description of feature 2.
-- **Feature 3**: Description of feature 3.
+- **Product Listings**: Display essential supplies available for bulk purchase.
+- **Interest Groups**: Enables businesses to express interest in certain items, facilitating group formation to meet bulk order minimums.
+- **Price Tracking**: Real-time display of cost savings based on group size.
+- **Optional Notifications**: Alerts businesses when group sizes reach savings thresholds (optional feature).
 
 ## Tech Stack
 
-- **Frontend**: [e.g., React, Vue.js]
-- **Backend**: [e.g., Node.js, Express]
-- **Database**: [e.g., MongoDB, PostgreSQL]
-- **Hosting**: [e.g., Vercel, AWS]
+- **Frontend**: React
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Hosting**: Vercel
 
 ---
 
@@ -51,8 +50,8 @@ Ensure you have the following installed:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/project-name.git
-    cd project-name
+    git clone https://github.com/yourusername/bulk-purchasing-collective.git
+    cd bulk-purchasing-collective
     ```
 
 2. **Install dependencies**:
@@ -110,24 +109,24 @@ Ensure you have the following installed:
      ```bash
      vercel --prod
      ```
-   - Your app will be deployed to a Vercel URL, usually `https://your-project-name.vercel.app`.
+   - Your app will be deployed to a Vercel URL, usually `https://bulk-purchasing-collective.vercel.app`.
 
 ---
 
 ## Usage
 
 1. Access the deployed app at `[deployment URL]`.
-2. [Briefly describe any special steps for using the app or where to find key features].
+2. Businesses can browse product listings, join interest groups, and track savings on bulk orders.
 
 ---
 
 ## Contributing
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add YourFeature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add YourFeature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
 
 ---
 
